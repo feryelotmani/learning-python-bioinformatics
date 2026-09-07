@@ -1,20 +1,20 @@
-# python-bioinformatics
-A portfolio of Python applications for bioinformatics. from genomic sequence parsing to molecular data analysis  
+# sequence-analysis-python
+A project is designed for analysis the normal human hemoglubin sequence (HBB) and simulating the sickle cell variant (Hbs) in silico
 
 ## project discription
-Custom scripts designed to develop Python libraries for processing and analyzing various biological datasets are included in this sandbox. Building a solid programmatic foundation in structural and functional genomics is the main goal.
+ This experiment aims to perform a Comparative in silico analysis between normal hemoglobin subunits (HBB) and the sickle cell variant (HbS) utilizing basic bioinformatics tools. the approach consisted in two phases, a simulation of the variant using Google Colab and the Biopython library, and then we moved to the visualization of the structure using PyMOL.The gene sequences and protein structures were retrieved from NCBI and RCSB PDB.
 
-## Tech Stack & Libraries
-* Language: Python 3.x
-* Core Libraries: 
-  * Biopython (Sequence parsing & structural analysis)
-  * Pandas / NumPy (Biological data manipulation)
-  * PyMOL / pymol.cmd (Automated protein rendering & structure manipulation)
-  * 
-## Current Learning Objectives
-* [ ] Master reading/writing FASTA and FASTQ file formats using Bio.SeqIO.
-* [ ] Implement basic sequence alignment algorithms 
-* [ ] Parse PDB files to explore protein structures.
+## Setting Up Your Data (FASTA File)
 
+This project does not come with built-in sequence data. Instead, you will choose a real gene, download its FASTA file, and upload it to your Google Drive.
 
-🤝 Feedback & Code Review: this repository serves as my learning canvas, feel free to share your suggestions and recommandations! 
+## Running the Code (Google Colab)
+This project is runs on Google Colab
+
+Once the notebook opens, run the first code cell to mount your Google Drive:
+   
+   from google.colab import drive
+   drive.mount('/content/drive')
+
+ ## Feedback & Code Review 
+ feel free to share any suggestions or recommandations that can help improve this project
